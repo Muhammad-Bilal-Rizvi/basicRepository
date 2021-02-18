@@ -32,7 +32,7 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run Surge
-        run: surge ./ basicrepositorynewapp.surge.sh--token${{secrets.SURGE.TOKEN}}
+        run: surge ./ basicrepository.surge.sh--token${{secrets.SURGE.TOKEN}}
       
       - name: Run a one-line script
         run: echo Hello, world!
